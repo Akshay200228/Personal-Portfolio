@@ -3,7 +3,7 @@ import { useState } from "react";
 
 import { Header } from "@components/layouts";
 import "@styles/globals.css";
-import './style.css';
+import "@styles/style.css";
 
 function MyApp({ Component, pageProps }) {
   const [showHeader, setShowHeader] = useState(true);

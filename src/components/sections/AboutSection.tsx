@@ -65,7 +65,7 @@ const AboutSection = () => {
               variants={fadeIn("up")}
               className="flex justify-center p-4 mt-4 space-x-4 text-base text-gray-300 border border-dashed rounded-sm cursor-pointer md:mt-0 md:text-3xl col-span-full md:col-span-1"
               onClick={() => {
-                navigator.clipboard.writeText("dev.sumitdey@gmail.com");
+                navigator.clipboard.writeText("akshayrs096@gmail.com");
                 setIsCopied(true);
               }}
             >

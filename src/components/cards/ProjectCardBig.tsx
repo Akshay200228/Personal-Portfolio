@@ -44,8 +44,8 @@ const ProjectCardBig: FC<Props> = ({
           ))}
         </div>
         <div className="flex space-x-4 text-gray-300">
-          <FiGithub className="w-6 h-6 cursor-pointer" onClick={() => openLink(github_url)} />
-          <FiExternalLink className="w-6 h-6 cursor-pointer" onClick={() => openLink(deployed_url)} />
+          <FiGithub className="w-6 h-6 cursor-pointer hover:text-green-400" onClick={() => openLink(github_url)} />
+          <FiExternalLink className="w-6 h-6 cursor-pointer hover:text-green-400" onClick={() => openLink(deployed_url)} />
         </div>
       </div>
     </motion.div>
