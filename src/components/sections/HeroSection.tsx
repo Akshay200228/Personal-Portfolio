@@ -3,6 +3,7 @@ import { RiArrowDownSLine } from "react-icons/ri";
 import { AnimatePresence, motion } from "framer-motion";
 import { fadeIn, textContainer } from "@libs/variants";
 import { useEffect, useState } from "react";
+import Typewriter from 'typewriter-effect';
 
 const INTERVAL_TEXT_TO_SHOW_IN_SECONDS = 3;
 
@@ -55,7 +56,7 @@ const HeroSection = () => {
             Hi, I'm Akshay <span className="text-[#24282B] text-stroke">Sankpal</span>
           </motion.h1>
 
-          <AnimatePresence>
+          {/* <AnimatePresence>
             {showTextIndex === 0 && (
               <motion.h3
                 variants={fadeIn("up")}
@@ -74,7 +75,21 @@ const HeroSection = () => {
                 UI/UX
               </motion.h3>
             )}
-          </AnimatePresence>
+          </AnimatePresence> */}
+          <motion.h3
+            className="py-8 text-4xl font-extrabold text-transparent from-green-400 bg-clip-text bg-gradient-to-t to-white md:text-6xl"
+          >
+            <Typewriter
+              options={{
+                strings: [
+                  'Web Dev',
+                  'UI/UX'
+                ],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </motion.h3>
         </motion.div>
       </div>
     </section>

@@ -1,8 +1,9 @@
 {
   "name": "portfolio",
-"author": {
+  "author": {
     "name": "Akshay Sankpal",
-    "email": "akshayrs096@gmail.com"},
+    "email": "akshayrs096@gmail.com"
+  },
   "version": "1.1.0",
   "private": true,
   "scripts": {
@@ -18,7 +19,8 @@
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
     "react-intersection-observer": "^8.32.1",
-    "sharp": "^0.29.1"
+    "sharp": "^0.29.1",
+    "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {
     "@types/react": "^17.0.11",
