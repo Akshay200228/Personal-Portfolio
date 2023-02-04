@@ -1,32 +1,32 @@
 import { RiArrowDownSLine } from "react-icons/ri";
 
-import { AnimatePresence, motion } from "framer-motion";
+import {  motion } from "framer-motion";
 import { fadeIn, textContainer } from "@libs/variants";
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import Typewriter from 'typewriter-effect';
 
-const INTERVAL_TEXT_TO_SHOW_IN_SECONDS = 3;
+// const INTERVAL_TEXT_TO_SHOW_IN_SECONDS = 3;
 
 const HeroSection = () => {
   // create a timer that will change text after a certain interval
-  const [timer, setTimer] = useState(0);
+  // const [timer, setTimer] = useState(0);
 
-  const [showTextIndex, setShowTextIndex] = useState(0);
+  // const [showTextIndex, setShowTextIndex] = useState(0);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setTimer((timer) => timer + 1);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setTimer((timer) => timer + 1);
 
-      if (timer <= INTERVAL_TEXT_TO_SHOW_IN_SECONDS) setShowTextIndex(0);
-      else if (timer > INTERVAL_TEXT_TO_SHOW_IN_SECONDS && timer <= INTERVAL_TEXT_TO_SHOW_IN_SECONDS * 2)
-        setShowTextIndex(1);
-      else setShowTextIndex(2);
+  //     if (timer <= INTERVAL_TEXT_TO_SHOW_IN_SECONDS) setShowTextIndex(0);
+  //     else if (timer > INTERVAL_TEXT_TO_SHOW_IN_SECONDS && timer <= INTERVAL_TEXT_TO_SHOW_IN_SECONDS * 2)
+  //       setShowTextIndex(1);
+  //     else setShowTextIndex(2);
 
-      // reset the time
-      if (timer >= INTERVAL_TEXT_TO_SHOW_IN_SECONDS * 3) setTimer(0);
-    }, 1000);
-    return () => clearInterval(interval);
-  }, [timer]);
+  //     // reset the time
+  //     if (timer >= INTERVAL_TEXT_TO_SHOW_IN_SECONDS * 3) setTimer(0);
+  //   }, 1000);
+  //   return () => clearInterval(interval);
+  // }, [timer]);
 
   return (
     <section className="relative grid h-screen ">
