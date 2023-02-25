@@ -1,12 +1,26 @@
 import { Experience, Project } from "@libs/types";
 
 import cryptopad from "@public/images/projects/crypto1.png";
-import youTube from "@public/images/projects/exp.jpg";
+// import youTube from "@public/images/projects/exp.jpg";
 import codeai from "@public/images/projects/codeai.jpg";
+import algorithm from "@public/images/projects/algorithm.png";
 
 export const projects: Project[] = [
   {
     id: 1,
+    name: "Algorithm Visualizer",
+    image: algorithm,
+    deployed_url: "https://algo-visualizer-nu.vercel.app/",
+    github_url: "https://github.com/Akshay200228/algo-visualizer",
+    category: ["react"],
+    points: [
+      " • I am a Dev who loves DSA , So why not combine those ? :)",
+      " • This app shows how algorithm works with cool animation",
+    ],
+    key_techs: ["React", "Firebase", "Framer Motion"],
+  },
+  {
+    id: 2,
     name: "Crypto Pad : Crprto currency App",
     points: [
       " • Crypto Pad provides a fundamental analysis of the digital currency market.",
@@ -18,34 +32,21 @@ export const projects: Project[] = [
     category: ["react", "tailwind"],
     key_techs: ["React", "Tailwind", "CoinGecko Api", "Firebase"],
   },
+
   // {
   //   id: 2,
-  //   name: "Algorithm Visualizer",
-  //   image: algorithm,
-  //   deployed_url: "https://visual-algorithm.web.app/",
-  //   github_url: "https://github.com/Dey-Sumit/algorithm-visualizer",
+  //   name: "Expense Tracker : Voice Powered React App",
+  //   image: youTube,
+  //   deployed_url: "https://expense-tracker-e296bd.netlify.app/",
+  //   github_url: "https://github.com/Akshay200228/expense-tracker",
   //   category: ["react"],
   //   points: [
-  //     " • I am a Dev who loves DSA , So why not combine those ? :)",
-  //     " • This app shows how algorithm works with cool animation",
+  //     " • This is a Complex Expense Budget Tracker Application using React, speechly.",
+  //     " • It helps the users to keep track of th income expenses and its has a voice feature through which you can input the budget with basic command.",
   //   ],
-  //   key_techs: ["React", "Firebase", "Framer Motion"],
+
+  //   key_techs: ["React", "Speechly", "Material UI", "Context API"],
   // },
-
-  {
-    id: 2,
-    name: "Expense Tracker : Voice Powered React App",
-    image: youTube,
-    deployed_url: "https://expense-tracker-e296bd.netlify.app/",
-    github_url: "https://github.com/Akshay200228/expense-tracker",
-    category: ["react"],
-    points: [
-      " • This is a Complex Expense Budget Tracker Application using React, speechly.",
-      " • It helps the users to keep track of th income expenses and its has a voice feature through which you can input the budget with basic command.",
-    ],
-
-    key_techs: ["React", "Speechly", "Material UI", "Context API"],
-  },
 
   {
     id: 3,
