@@ -90,7 +90,7 @@ const ContactSection = () => {
                 value={form.name}
                 onChange={handleChange}
                 placeholder="What's your good name?"
-                className='px-6 py-4 font-medium text-green-400 border-none rounded-lg outline-none bg-neutral-900 placeholder:text-secondary'
+                className='px-6 py-4 font-medium text-white border-none rounded-lg outline-none bg-neutral-900 placeholder:text-secondary'
               />
             </label>
             <label className='flex flex-col'>
