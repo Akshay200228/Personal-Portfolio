@@ -6,8 +6,8 @@ import SectionTitle from "@components/layouts/SectionTitle";
 import { AnimateWhenVisible } from "@components/layouts";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import { styles } from '../../styles';
 import { slideIn } from '../../utils/motion'
+
 
 const ContactSection = () => {
   const formRef = useRef();
