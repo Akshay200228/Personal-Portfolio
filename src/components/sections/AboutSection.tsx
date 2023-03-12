@@ -20,9 +20,6 @@ const AboutSection = () => {
               • I started web development in 2021...Fast forward to today, I am a self taught web developer ,
               mainly work on frontend these days.
             </p>
-            <p>
-              • I love to teach because I love to learn.
-            </p>
           </motion.div>
           <motion.div className="flex flex-col w-full sm:flex-row ">
             <motion.div className="flex-1 text-base sm:text-lg col-span-full md:col-span-1">

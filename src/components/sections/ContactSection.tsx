@@ -126,13 +126,6 @@ const ContactSection = () => {
         </motion.div>
       </div>
 
-      {/* <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
-      >
-        <EarthCanvas />
-      </motion.div> */}
-
       <AnimateWhenVisible variants={textContainer}>
         <motion.div variants={textContainer} className="flex items-center justify-center space-x-6">
           <motion.span
