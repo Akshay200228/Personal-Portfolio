@@ -126,6 +126,8 @@ const ContactSection = () => {
         </motion.div>
       </div>
 
+      <SectionTitle title=""/>
+
       <AnimateWhenVisible variants={textContainer}>
         <motion.div variants={textContainer} className="flex items-center justify-center space-x-6">
           <motion.span
