@@ -44,7 +44,7 @@ const AboutSection = () => {
                 <div className="flex-1 space-y-3 md:col-span-1">
                   <div className="flex items-center space-x-2">
                     <BiRightArrow className="text-green-400" />
-                    <span>Vue</span>
+                    <span>Node js</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <BiRightArrow className="text-green-400" />
