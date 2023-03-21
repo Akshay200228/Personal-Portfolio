@@ -10,7 +10,7 @@ export const projects: Project[] = [
     id: 1,
     name: "Algorithm Visualizer",
     image: algorithm,
-    deployed_url: "https://algo-visualizer-nu.vercel.app/",
+    deployed_url: "https://algo-viz-drab.vercel.app/",
     github_url: "https://github.com/Akshay200228/algo-visualizer",
     category: ["react"],
     points: [
