@@ -32,7 +32,7 @@ export const projects: Project[] = [
     deployed_url: "https://xpense-traacker.vercel.app/login",
     github_url: "https://github.com/Akshay200228/xpense-traacker",
     category: ["react"],
-    key_techs: ["Vanilla", "Openai API"],
+    key_techs: ["React js", "speechly"],
   },
   {
     id: 2,
