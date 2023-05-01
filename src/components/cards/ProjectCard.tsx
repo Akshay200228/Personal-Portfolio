@@ -6,7 +6,7 @@ import { AiOutlineFolder } from "react-icons/ai";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
 import { fadeIn } from "@libs/variants";
 
-const ProjectCard: FC<IProject> = ({ deployed_url, category, points, github_url, key_techs, name }) => {
+const ProjectCard: FC<IProject> = ({ deployed_url, points, github_url, key_techs, name }) => {
   const openLink = (url: string) => {
     window.open(url, "_blank");
   };

@@ -21,6 +21,7 @@ const ProjectsSection = () => {
             <ProjectCardBig project={allProjects[0]} />
             <ProjectCardBig project={allProjects[1]} reverse />
             <ProjectCardBig project={allProjects[2]} />
+            <ProjectCardBig project={allProjects[3]} />
           </motion.div>
         </AnimateWhenVisible>
         <AnimateWhenVisible variants={textContainer}>
