@@ -4,7 +4,7 @@ import { FC } from "react";
 import { BiRightArrow } from "react-icons/bi";
 import { fadeIn } from "@libs/variants";
 
-const ExperienceCard: FC<Experience> = ({ points, company, jobTitle, timeline }) => {
+const ExperienceCard: FC<Experience> = ({ points, jobTitle, timeline }) => {
   return (
     <motion.div variants={fadeIn()} initial="initial" animate="animate" className="flex flex-col ">
       <h3 className="text-xl">{jobTitle} </h3>

@@ -52,7 +52,7 @@ const AboutSection = () => {
                   </div>
                   <div className="flex items-center space-x-2">
                     <BiRightArrow className="text-green-400" />
-                    <span>Tailwind CSS </span>
+                    <span>php</span>
                   </div>
                 </div>
               </div>
