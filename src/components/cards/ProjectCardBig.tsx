@@ -22,7 +22,7 @@ const ProjectCardBig: FC<Props> = ({
       variants={fadeIn("up")}
       className="flex flex-col space-y-6 md:space-x-8 md:space-y-0 sm:flex-row sm:even:flex-row-reverse "
     >
-      <div className={classNames("inner flex-1 border-gray-400 nextImage")}>
+      <div className={classNames("inner flex-1 border-gray-400 nextImage overflow-hidden hover:overflow-y-auto transition-all")} style={{ transform: 'translateY(0)', transition: 'transform 0.3s' }}>
         <Image alt={name} src={image} quality={100} objectFit="contain" className="" placeholder="blur" />
       </div>
       <div

@@ -25,7 +25,7 @@ const HeroSection = () => {
       >
         <RiArrowDownSLine className="w-6 h-6" />
       </motion.span>
-      <div className="grid place-items-center">
+      <div className="grid p-10 sm:p-0 place-items-center">
         <motion.div variants={textContainer} initial="initial" animate="animate" className="space-y-3">
           <motion.p variants={fadeIn("up")} className="text-sm text-green-100 md:text-lg">
             Code • Coffee • Coldplay
