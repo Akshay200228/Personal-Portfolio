@@ -15,10 +15,11 @@ const AboutSection = () => {
         <SectionTitle title="Brief about me" />
         <motion.div variants={fadeIn("up")} className="flex flex-col space-y-4">
           <motion.div className="flex flex-col mb-4 space-y-2 text-base sm:text-lg">
-            <p>• Hi, I am Akshay and I refuse to make boring websites :)</p>
             <p>
-              • I started web development in 2021...Fast forward to today, I am a self taught web developer ,
-              mainly work on frontend these days.
+              • Hi, I am Akshay and I refuse to make boring websites :)
+            </p>
+            <p>
+              • I started web development in 2021...Fast forward to today, I am a self taught web developer, mainly work on frontend these days.
             </p>
           </motion.div>
           <motion.div className="flex flex-col w-full sm:flex-row ">
@@ -34,11 +35,15 @@ const AboutSection = () => {
                   </div>
                   <div className="flex items-center space-x-2">
                     <BiRightArrow className="text-green-400" />
-                    <span>React & Redux </span>
+                    <span>React js & Redux </span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <BiRightArrow className="text-green-400" />
-                    <span>TypeScript</span>
+                    <span>Next js</span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <BiRightArrow className="text-green-400" />
+                    <span>Tailwind Css</span>
                   </div>
                 </div>
                 <div className="flex-1 space-y-3 md:col-span-1">
@@ -52,7 +57,11 @@ const AboutSection = () => {
                   </div>
                   <div className="flex items-center space-x-2">
                     <BiRightArrow className="text-green-400" />
-                    <span>php</span>
+                    <span>REST API</span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <BiRightArrow className="text-green-400" />
+                    <span>MongoDB</span>
                   </div>
                 </div>
               </div>
