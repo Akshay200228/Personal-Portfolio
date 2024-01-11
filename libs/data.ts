@@ -1,7 +1,7 @@
 import { Experience, Project } from "@libs/types";
 
 import cryptopad from "@public/images/projects/crypto1.png";
-import codeai from "@public/images/projects/codeai.jpg";
+import DevNexus from "@public/images/projects/DevNexus.png";
 import xpense from "@public/images/projects/xpense.png";
 import Movix from "@public/images/projects/Movix.png";
 // import algorithm from "@public/images/projects/algorithm.png";
@@ -22,6 +22,20 @@ export const projects: Project[] = [
   // },
   {
     id: 1,
+    name: "DevNexus",
+    image: DevNexus,
+    points: [
+      " • DevNexus is designed for web developers like you who want to take their projects to new heights. Our powerful features, components, and resources are here to supercharge your web development journey.",
+      " • Welcome to DevFusionKit, your one-stop destination for supercharging your web development projects. Dive into a world of endless possibilities with our curated collection of web application components, code gems, stunning animations, and unique, eye-catching landing pages.",
+    ],
+
+    deployed_url: "https://dev-nexus.vercel.app/",
+    github_url: "https://github.com/Akshay200228/DevNexus",
+    category: ["react"],
+    key_techs: ["Next js", "Express Js", "REST API", "Tailwind Css", "MongoDB"],
+  },
+  {
+    id: 2,
     name: "Xpense-tracker",
     image: xpense,
     points: [
@@ -35,7 +49,7 @@ export const projects: Project[] = [
     key_techs: ["React js", "speechly"],
   },
   {
-    id: 2,
+    id: 3,
     name: "Crypto Pad : Crprto currency App",
     points: [
       " • Crypto Pad provides a fundamental analysis of the digital currency market.",
@@ -49,20 +63,20 @@ export const projects: Project[] = [
   },
 
 
-  {
-    id: 3,
-    name: "Code AI : ChatGPT clone",
-    image: codeai,
-    points: [
-      " • Codeai is a AI-based program that people use for generating dialogues.",
-      " • Detailed responses and articulate answers across many domains of knowledge.",
-    ],
-    
-    deployed_url: "https://code-ai-smoky.vercel.app/",
-    github_url: "https://github.com/Akshay200228/codeAI",
-    category: ["react"],
-    key_techs: ["Vanilla", "Openai API"],
-  },
+  // {
+  //   id: 3,
+  //   name: "Code AI : ChatGPT clone",
+  //   image: codeai,
+  //   points: [
+  //     " • Codeai is a AI-based program that people use for generating dialogues.",
+  //     " • Detailed responses and articulate answers across many domains of knowledge.",
+  //   ],
+
+  //   deployed_url: "https://code-ai-smoky.vercel.app/",
+  //   github_url: "https://github.com/Akshay200228/codeAI",
+  //   category: ["react"],
+  //   key_techs: ["Vanilla", "Openai API"],
+  // },
   {
     id: 4,
     name: "MovieX",
@@ -122,5 +136,3 @@ export const experiences: Experience[] = [
     points: ["Working as a part-time freelancer from my 3rd of college", "Successfully completed 2+ Projects"],
   }
 ];
-
-

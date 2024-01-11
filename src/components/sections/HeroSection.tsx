@@ -28,19 +28,18 @@ const HeroSection = () => {
           <motion.p variants={fadeIn("up")} className="text-sm text-gray-400 md:text-lg">
             Code • Coffee • Coldplay
           </motion.p>
-          <motion.h1 variants={fadeIn("up")} className="text-4xl font-extrabold text-white sm:text-7xl md:text-8xl">
+          <motion.h1 variants={fadeIn("up")} className="text-6xl font-extrabold text-white sm:text-7xl md:text-8xl">
             Hi, I'm Akshay <span className="text-[#24282B] text-stroke">Sankpal</span>
           </motion.h1>
 
           <motion.h3
-            className="py-8 text-4xl font-extrabold text-transparent from-green-400 bg-clip-text bg-gradient-to-t to-white md:text-6xl"
+            className="py-8 text-2xl font-extrabold text-transparent sm:text-4xl from-green-400 bg-clip-text bg-gradient-to-t to-white md:text-6xl"
           >
             <Typewriter
               options={{
                 strings: [
-                  'MERN Developer',
-                  'Video Editor',
-                  'UI/UX'
+                  'MERN Stack Developer',
+                  'FrontEnd Developer',
                 ],
                 autoStart: true,
                 loop: true,

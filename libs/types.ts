@@ -16,5 +16,6 @@ export interface Project {
   id: number;
 }
 
+
 export type Category = "react" | "express" | "mongo" | "socket" | "tailwind" | "next" | "Javascript";
 
