@@ -25,8 +25,8 @@ export const projects: Project[] = [
     name: "DevNexus",
     image: DevNexus,
     points: [
+      " • Welcome to DevNexus, your one-stop destination for supercharging your web development projects. Dive into a world of endless possibilities with our curated collection of web application components, code gems, stunning animations, and unique, eye-catching landing pages.",
       " • DevNexus is designed for web developers like you who want to take their projects to new heights. Our powerful features, components, and resources are here to supercharge your web development journey.",
-      " • Welcome to DevFusionKit, your one-stop destination for supercharging your web development projects. Dive into a world of endless possibilities with our curated collection of web application components, code gems, stunning animations, and unique, eye-catching landing pages.",
     ],
 
     deployed_url: "https://dev-nexus.vercel.app/",
