@@ -148,6 +148,18 @@ export const experiences: Experience[] = [
     company: "Freelancer",
     jobTitle: "Freelance Web Developer",
     timeline: "2022 - Present",
-    points: ["Working as a part-time freelancer from my 3rd year of college", "Successfully completed 2+ Projects"],
+    points: [
+      "Worked as a part-time freelancer from my 3rd year of college, balancing academic commitments with professional projects.",
+      "Successfully completed 10+ projects, delivering high-quality web solutions to clients across various industries.",
+      "Developed responsive and interactive websites using modern technologies such as React.js, Next.js, and Tailwind CSS.",
+      "Collaborated with clients to gather requirements, provide technical consultations, and ensure the final product met their needs.",
+      "Designed and implemented custom APIs using Node.js and Express.js to enhance website functionality and performance.",
+      "Optimized websites for SEO, improving search engine rankings and driving more traffic to client sites.",
+      "Integrated third-party services and APIs, such as payment gateways, email services, and social media platforms.",
+      "Ensured cross-browser compatibility and mobile responsiveness to provide a seamless user experience across all devices.",
+      "Utilized version control systems like Git for efficient project management and collaboration.",
+      "Provided ongoing maintenance and support, addressing bugs, implementing new features, and ensuring site security.",
+    ],
+
   },
 ];
