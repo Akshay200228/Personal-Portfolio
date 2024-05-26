@@ -130,9 +130,24 @@ export const projects: Project[] = [
 
 export const experiences: Experience[] = [
   {
+    company: "Bot2Do",
+    jobTitle: "Software Developer",
+    timeline: "March 2023 - Present",
+    points: [
+      "Played a key role as a senior developer, guiding a team of junior developers and ensuring timely project delivery.",
+      "Deployed the Next.js application on Vercel for seamless client verification.",
+      "Developed a project using React.js, Express.js, Node.js, and MongoDB to analyze shipment risks with real-time data from LLM.",
+      "Built a frontend for Copilot using React.js to visualize and interact with data.",
+      "Automated documentation processes for a fasteners manufacturing company using Next.js and Express.js.",
+      "Implemented features such as revision history, PDF downloads, and editable tables to streamline operations.",
+      "Created a dynamic frontend using React.js, Redux, and Tailwind CSS for various modules including login, registration, and payment gateway.",
+      "Integrated APIs to ensure seamless functionality across all frontend pages."
+    ],
+  },
+  {
     company: "Freelancer",
     jobTitle: "Freelance Web Developer",
     timeline: "2022 - Present",
-    points: ["Working as a part-time freelancer from my 3rd of college", "Successfully completed 2+ Projects"],
-  }
+    points: ["Working as a part-time freelancer from my 3rd year of college", "Successfully completed 2+ Projects"],
+  },
 ];

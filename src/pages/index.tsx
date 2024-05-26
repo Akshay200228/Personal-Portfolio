@@ -18,8 +18,8 @@ const HomePage = () => {
       <SplashScreen />
       <HeroSection />
       <AboutSection />
-      <ProjectsSection />
       <ExperienceSection />
+      <ProjectsSection />
       <ContactSection />
     </>
   );

@@ -7,7 +7,7 @@ import { AnimateWhenVisible, SectionContainer, SectionTitle } from "@components/
 import { ExperienceCard } from "@components/cards";
 
 const ExperienceSection = () => {
-  const [selected, setSelected] = useState<"Betterhalf" | "TCS" | "Freelancer" | "YouTube">("Betterhalf");
+  const [selected, setSelected] = useState<"Bot2Do" | "Freelancer">("Bot2Do");
 
   return (
     <SectionContainer id="experience">
@@ -15,8 +15,16 @@ const ExperienceSection = () => {
       <AnimateWhenVisible variants={textContainer}>
         <motion.div variants={fadeIn()} className="flex mb-4 space-x-6 ">
           <span
-            className={classNames("  cursor-pointer ", {
-              "border-b-2  pb-2 ": selected === "Freelancer",
+            className={classNames("cursor-pointer", {
+              "border-b-2 pb-2": selected === "Bot2Do",
+            })}
+            onClick={() => setSelected("Bot2Do")}
+          >
+            Bot2Do
+          </span>
+          <span
+            className={classNames("cursor-pointer", {
+              "border-b-2 pb-2": selected === "Freelancer",
             })}
             onClick={() => setSelected("Freelancer")}
           >
@@ -24,10 +32,8 @@ const ExperienceSection = () => {
           </span>
         </motion.div>
 
-        {selected === "Betterhalf" && <ExperienceCard {...experiences[0]} />}
-        {selected === "TCS" && <ExperienceCard {...experiences[1]} />}
-        {selected === "Freelancer" && <ExperienceCard {...experiences[2]} />}
-        {selected === "YouTube" && <ExperienceCard {...experiences[3]} />}
+        {selected === "Bot2Do" && <ExperienceCard {...experiences[0]} />}
+        {selected === "Freelancer" && <ExperienceCard {...experiences[1]} />}
       </AnimateWhenVisible>
     </SectionContainer>
   );
