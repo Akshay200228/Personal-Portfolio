@@ -19,7 +19,7 @@ const AboutSection = () => {
               • Hi, I am Akshay and I refuse to make boring websites :)
             </p>
             <p>
-              • I started web development in 2021...Fast forward to today, I am a self taught web developer, mainly work on frontend these days.
+              • I started web development in 2021...Fast forward to today, I am a self taught web developer, mainly work on MERN Stack these days.
             </p>
           </motion.div>
           <motion.div className="flex flex-col w-full sm:flex-row ">
