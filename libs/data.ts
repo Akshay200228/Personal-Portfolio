@@ -134,6 +134,8 @@ export const experiences: Experience[] = [
     jobTitle: "Software Developer",
     timeline: "March 2023 - Present",
     points: [
+      "Led the Johnson & Johnson project as a Backend DevOps Engineer, managing and optimizing backend infrastructure for seamless deployment and operations.",
+      "Collaborated closely with the Johnson & Johnson team to deliver high-quality solutions, ensuring project success and client satisfaction.",
       "Played a key role as a senior developer, guiding a team of junior developers and ensuring timely project delivery.",
       "Deployed the Next.js application on Vercel for seamless client verification.",
       "Developed a project using React.js, Express.js, Node.js, and MongoDB to analyze shipment risks with real-time data from LLM.",
@@ -150,7 +152,7 @@ export const experiences: Experience[] = [
     timeline: "2022 - Present",
     points: [
       "Worked as a part-time freelancer from my 3rd year of college, balancing academic commitments with professional projects.",
-      "Successfully completed 10+ projects, delivering high-quality web solutions to clients across various industries.",
+      "Successfully completed 20+ projects, delivering high-quality web solutions to clients across various industries.",
       "Developed responsive and interactive websites using modern technologies such as React.js, Next.js, and Tailwind CSS.",
       "Collaborated with clients to gather requirements, provide technical consultations, and ensure the final product met their needs.",
       "Designed and implemented custom APIs using Node.js and Express.js to enhance website functionality and performance.",
